@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+body {
+  background: rgb(31,31,31);
+  background: linear-gradient(56deg, rgba(31,31,31,1) 0%, rgba(26,26,26,1) 100%);  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SecondaryColor{
+  color: #999999;
+}
+.linearColor{
+ background: rgb(31,31,31);
+  background: linear-gradient(56deg, rgba(31,31,31,1) 0%, rgba(26,26,26,1) 100%);;
+}
