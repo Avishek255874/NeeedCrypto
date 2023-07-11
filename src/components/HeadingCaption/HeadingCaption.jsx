@@ -1,10 +1,10 @@
 import React from 'react'
 
-const HeadingCaption = ({caption,heading,alignText,textColor,textHColor ,alignHText}) => {
+const HeadingCaption = ({caption,heading,alignText,textColor,textHColor ,alignHText,fontHSize ,fontSize,captionClass,headerParentClass}) => {
   return (
-    <div>
-    <h6 className='m-0 ' style={{textAlign:alignHText, color:textHColor}}>{heading}</h6>
-   <p  className='m-0 ' style={{textAlign:alignText, color:textColor}}>{caption}</p>
+    <div className={`${headerParentClass}`}>
+    <h6 className={`${captionClass} m-0 text-truncate`}  style={{textAlign:alignHText, color:textHColor,  fontSize:fontHSize}}>{heading}</h6>
+   <p  className={`${captionClass} m-0 text-truncate`} style={{textAlign:alignText, color:textColor, fontSize:fontSize}}>{caption}</p>
     </div>
     
 

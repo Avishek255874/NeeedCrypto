@@ -1,17 +1,20 @@
 import React from 'react'
 
-const CardCoin = ({ coin ,textColor ,FontSize}) => {
+const CardCoin = ({ coin, textColor, FontSize ,coinShortName,BitcoinName}) => {
     return (
-        <div>
-            <div className='pt-3  '>
+        
+            <div >
                 <img src={coin} width="20px" className="me-3 " alt='' />
                 <span className='pe-2 ' >
-                    Bitcoin
+                   {BitcoinName}
                 </span>
-                <span style={{fontSize:FontSize,color:textColor ,}}>
-                    BTC
+                <span style={{ fontSize: FontSize, color: textColor, }}>
+                   {coinShortName}
                 </span>
-            </div></div>
+            </div>
+       
+ 
+        
     )
 }
 

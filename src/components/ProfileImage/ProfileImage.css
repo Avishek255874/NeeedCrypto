@@ -1,0 +1,18 @@
+
+.MenuBar{
+    display:none;
+    cursor: pointer;
+}
+@media only screen and (max-width: 767px) {
+    .ProfileImage{
+        display: none;
+    }
+ 
+}
+@media only screen and (max-width: 946px) {
+    
+
+    .MenuBar{
+        display: block;
+    }
+}

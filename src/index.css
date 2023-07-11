@@ -7,7 +7,8 @@
 body {
   background: rgb(31,31,31);
   background: linear-gradient(56deg, rgba(31,31,31,1) 0%, rgba(26,26,26,1) 100%);  background-repeat: no-repeat;
-  height: 100vh;
+  /* height: 100vh; */
+  min-height: 100%;
 }
 
 .center {
@@ -21,4 +22,10 @@ body {
 .linearColor{
  background: rgb(31,31,31);
   background: linear-gradient(56deg, rgba(31,31,31,1) 0%, rgba(26,26,26,1) 100%);;
+}
+.nowrap {
+  white-space: nowrap;
+}
+.ColorStyle{
+background-color: #2020208c !important;
 }

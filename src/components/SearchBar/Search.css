@@ -3,6 +3,7 @@
     background: linear-gradient(56deg, rgb(42, 42, 42) 0%, rgb(43, 43, 43) 100%);  background-repeat: no-repeat;
 outline: none;
 
+
 }
 .SearchStyle:focus{
     box-shadow: none !important;

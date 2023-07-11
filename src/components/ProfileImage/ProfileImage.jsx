@@ -1,19 +1,20 @@
 import React from "react";
 import imageAvi from "../../assets/Avater.jpg";
+import "./ProfileImage.css"
 
 const ProfileImage = () => {
   return (
-    <div className="d-flex justify-content-end align-items-center p-2">
-      <i class="fa-solid fa-bell" />
-      <div className="ps-3 pe-3">
+    <div className="d-flex justify-content-end align-items-center ">
+      <i className="fa-solid fa-bell ProfileImage" />
+      <div className="ps-4 ProfileImage">
         <img
           src={imageAvi}
           width="30x"
           height="30px"
-          className=" rounded-circle"
+          className=" rounded-circle "
         />
       </div>
-     
+      
     </div>
   );
 };

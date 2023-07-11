@@ -1,0 +1,15 @@
+.OffcanvasStyle{
+    background: #202020 !important;
+    
+}
+.OffcanvasStyle .offcanvas-body{
+    height: 100vh;
+    overflow: hidden;
+}
+.OffcanvasStyle .SideBar{
+    display: block;
+    width: 100%;
+    border: none;
+    height: 100%;
+    overflow: hidden;
+}

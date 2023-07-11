@@ -1,21 +1,30 @@
-.SideBar{
-    width:250px;
+.SideBar {
+    width: 250px;
     height: 100vh;
+    min-height: 100%;
     border-right: 1px solid #767676
 }
-.titleStyle{
+
+.titleStyle {
     color: #c3c3c3;
 }
 
-.logOutStyle{
-    bottom:-30px;
- 
-}
-.highlightMenuItem{
-    cursor: pointer;
-    color:#c3c3c3
-}
-.highlightMenuItemParent:hover .highlightMenuItem{
-    color:#ffffff
+.logOutStyle {
+    bottom: -30px;
+
 }
 
+.highlightMenuItem {
+    cursor: pointer;
+    color: #c3c3c3
+}
+
+.highlightMenuItemParent:hover .highlightMenuItem {
+    color: #ffffff
+}
+
+@media only screen and (max-width: 944px) {
+    .SideBar {
+        display: none;
+    }
+}

@@ -8,7 +8,7 @@ import SideBar from "./components/Sidebar/SideBar";
 
 function App() {
   return (
-    <div className="d-flex ">
+    <div className="d-flex  overflow-hidden w-100">
       <SideBar />
 
       <Dashboard />
