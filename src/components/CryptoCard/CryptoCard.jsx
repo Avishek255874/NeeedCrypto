@@ -7,7 +7,7 @@ const CryptoCard = () => {
   return (
     <div className='mb-4 CryptoCard'>
      <div className='d-flex align-items-center '>
-    <img src="https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579" width="30px" className="me-3 " alt="coin"></img>
+    <img src="https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579" width="30px" className="me-3 " alt="coin"/>
         <HeadingCaption
             heading="Bitcoin"
             caption="BTC"
