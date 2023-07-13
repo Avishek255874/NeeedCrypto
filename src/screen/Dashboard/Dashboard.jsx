@@ -23,8 +23,8 @@ const Dashboard = () => {
   return (
     <div className="p-3 w-100 row m-0 overflow-auto dashboardStyle">
       <div className="row ">
-        <div className="col-md-8">
-          <div className="d-flex align-items-center justify-content-between gap-3">
+        <div className="col-md-8 ">
+          <div className="d-flex align-items-center justify-content-between gap-3 ">
             <Search />
             <i className="fa-solid fa-bars MenuBar  " onClick={handleShow}  />
 <SideBarOffcanvas show={show} handleClose={handleClose} />

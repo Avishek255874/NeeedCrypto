@@ -13,12 +13,13 @@ const SideBar = () => {
       </div>
       <div className="p-4 ">
         <p className="mb-3 titleStyle">Menu</p>
-        <MenuItem menuName="Dashboard" fontAws="fa-solid fa-house" />
+        <MenuItem menuName="Dashboard" url="/" fontAws="fa-solid fa-house" />
         <MenuItem menuName="Wallet" fontAws="fas fa-wallet" />
         <MenuItem menuName="Statistics" fontAws="fa-solid fa-chart-simple" />
-        <MenuItem menuName="Transactions" fontAws="fa-brands fa-bitcoin" />
+        <MenuItem menuName="Transactions" url="/Transaction" fontAws="fa-brands fa-bitcoin" />
         <MenuItem
           menuName="Exchange"
+          url="/Exchange"
           fontAws="fa-solid fa-arrow-right-arrow-left"
         />
         <MenuItem menuName="News" fontAws="fa-solid fa-newspaper" />

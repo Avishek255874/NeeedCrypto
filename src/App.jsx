@@ -11,7 +11,8 @@ function App() {
   return (
     <div className="d-flex  overflow-hidden w-100">
       <SideBar />
-    <Cryptotable/>
+<Cryptotable/>
+
     </div>
   );
 }
